@@ -1,0 +1,24 @@
+:root {
+    /*call-to-action*/
+    --c-primary-h: 91; --c-primary-s: 65%; --c-primary-l: 50%;
+    --c-primary-hsl: var(--c-primary-h), var(--c-primary-s), var(--c-primary-l);
+    --c-primary: hsl(var(--c-primary-hsl));
+
+    /*highlight*/
+    --c-secondary-h: 339; --c-secondary-s: 87%; --c-secondary-l: 50%;
+    --c-secondary-hsl: var(--c-secondary-h), var(--c-secondary-s), var(--c-secondary-l);
+    --c-secondary: hsl(var(--c-secondary-hsl));
+
+    /*dark bg*/
+    --c-bg-h: 248; --c-bg-s: 54%; --c-bg-l: 16%;
+    --c-bg-hsl: var(--c-bg-h), var(--c-bg-s), var(--c-bg-l);
+    --c-bg: hsl(var(--c-bg-hsl));
+
+    /*containers, borders, sections*/
+    --c-neutral-light: #d1d0d2;
+    --c-neutral: #a8a8a8;
+    --c-neutral-dark: #707070;
+
+    --c-text: #2f312e;
+    --c-text-light: #ebf1e8;
+}
