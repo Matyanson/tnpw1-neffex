@@ -16,9 +16,9 @@
     --c-bg: hsl(var(--c-bg-hsl));
 
     /*containers, borders, sections*/
-    --c-neutral-light: #d1d0d2;
-    --c-neutral: #a8a8a8;
-    --c-neutral-dark: #707070;
+    --c-neutral-light: #e7e7e7;
+    --c-neutral: #7c7c7c;
+    --c-neutral-dark: #1d1d1d;
 
     --c-text: #2f312e;
     --c-text-light: #ebf1e8;
