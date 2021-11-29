@@ -8,6 +8,7 @@ header {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     padding: 10px;
     background-color: hsla(var(--c-bg-hsl), 0.7);
     backdrop-filter: blur(2px);

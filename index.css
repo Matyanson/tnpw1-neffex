@@ -1,3 +1,7 @@
+.welcomeMedia {
+    position: relative;
+    height: 80vh;
+}
 #bg, #bg_video {
     position: absolute;
     top: 0;
@@ -19,5 +23,26 @@ main {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding-top: 100px;
+}
+
+.startSection {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--c-text-light);
+}
+.titleSection {
+    width: 80%;
+    max-width: 550px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.titleSection img {
+    height: 200px;
+    width: 200px;
 }
