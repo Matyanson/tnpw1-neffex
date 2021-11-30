@@ -12,5 +12,8 @@ body {
     --nav-height: 84px;
 }
 main {
+    box-sizing: border-box;
     margin-top: var(--nav-height);
+    padding: 50px;
+    text-align: center;
 }

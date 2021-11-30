@@ -1,5 +1,8 @@
 main {
     margin-top: 0;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
 }
 .welcomeMedia {
     position: relative;
@@ -20,12 +23,6 @@ main {
 }
 #bg_video {
     opacity: 0.5;
-}
-
-main {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
 }
 
 .startSection {
