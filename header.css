@@ -18,7 +18,7 @@ header {
     display: none;
     background: none;
     color: var(--c-text-light);
-    font-size: 3rem;
+    font-size: 1.7rem;
     border: none;
 }
 .logo {

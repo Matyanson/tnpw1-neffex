@@ -1,6 +1,7 @@
 @import './palette.css';
 @import './header.css';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&family=Roboto:wght@100&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css');
 
 body {
     margin: 0;
@@ -10,6 +11,9 @@ body {
     background-color: var(--c-bg);
     color: var(--c-text-light);
     --nav-height: 84px;
+}
+a {
+    color: var(--c-primary);
 }
 main {
     box-sizing: border-box;
