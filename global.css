@@ -2,7 +2,6 @@
 @import './header.css';
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&family=Roboto:wght@100&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css');
-@import url('https://cdn.jsdelivr.net/npm/parallax.css');
 
 body {
     margin: 0;
@@ -16,12 +15,28 @@ body {
 a {
     color: var(--c-primary);
 }
+
+button {
+    padding: 16px;
+    margin: 20px 0;
+    background: transparent;
+    border: 1px solid var(--c-primary);
+    color: var(--c-primary);
+    width: unset;
+    transition: all 0.2s;
+}
+button:hover {
+    background: var(--c-primary);
+    color: var(--c-neutral-dark);
+}
+
 main {
     box-sizing: border-box;
     margin-top: var(--nav-height);
     background-color: var(--c-bg);
     padding: 50px;
     text-align: center;
+    min-height: 100vh;
 }
 
 footer {
