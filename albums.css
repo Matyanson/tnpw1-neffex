@@ -1,27 +1,13 @@
-.album {
-    margin: 100px;
-    padding: 1px 10px;
-    background: var(--c-neutral-dark);
-    color: var(--c-text-light);
-    border: solid 2px var(--c-neutral);
-}
-.album .head {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    border-bottom: 2px solid var(--c-neutral);
-}
-.album img {
+
+.container img {
     height: 4rem;
 }
-.album h1 {
+.container h1 {
     width: 100%;
     text-align: center;
 }
 
-.album .list {
+.container .list {
     display: flex;
     flex-flow: column;
 }

@@ -1,0 +1,30 @@
+.container a{
+    color: var(--c-text-light);
+    text-decoration: none;
+}
+.container .head {
+    text-align: center;
+}
+.head h1 {
+    width: 100%;
+}
+.event {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.event:hover {
+    background: #ffffff22;
+}
+
+.date {
+    width: 3em;
+}
+.building, .location {
+    font-size: 1.2rem;
+}

@@ -22,7 +22,7 @@ button {
     background: transparent;
     border: 1px solid var(--c-primary);
     color: var(--c-primary);
-    width: unset;
+    cursor: pointer;
     transition: all 0.2s;
 }
 button:hover {
@@ -44,4 +44,19 @@ footer {
     text-align: center;
     background-color: var(--c-neutral-dark);
     border-top: 1px solid var(--c-neutral);
+}
+.container { 
+    margin: 100px;
+    padding: 1px 10px;
+    background: var(--c-neutral-dark);
+    color: var(--c-text-light);
+    border: solid 2px var(--c-neutral);
+}
+.container .head {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    border-bottom: 2px solid var(--c-neutral);
 }
