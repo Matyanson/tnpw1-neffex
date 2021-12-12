@@ -11,9 +11,12 @@
     --c-secondary: hsl(var(--c-secondary-hsl));
 
     /*dark bg*/
-    --c-bg-h: 248; --c-bg-s: 54%; --c-bg-l: 16%;
+    --c-bg-h: 248; --c-bg-s: 54%; --c-bg-l: 8%;
     --c-bg-hsl: var(--c-bg-h), var(--c-bg-s), var(--c-bg-l);
     --c-bg: hsl(var(--c-bg-hsl));
+
+    /*navbar*/
+    --c-nav-bg: hsla(var(--c-bg-h), var(--c-bg-s), calc(var(--c-bg-l) + 8%), 0.7);
 
     /*containers, borders, sections*/
     --c-neutral-light: #e7e7e7;
