@@ -8,6 +8,32 @@ main {
     position: relative;
     height: 100vh;
 }
+.controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 60%;
+    height: 300px;
+    font-size: 2.5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.controls #replay, .controls #mute {
+    text-shadow: 0px 0px 26px rgba(255,255,255,0.9);
+    transition: all 0.2s;
+}
+.controls #replay:hover {
+    transform: scale(1.7) rotate(30deg);
+}
+.controls #mute:hover {
+    transform: scale(1.7);
+}
+
 #bg, #bg_video {
     position: absolute;
     top: 0;
