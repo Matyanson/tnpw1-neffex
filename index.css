@@ -6,7 +6,7 @@ main {
 }
 .welcomeMedia {
     position: relative;
-    height: 80vh;
+    height: 100vh;
 }
 #bg, #bg_video {
     position: absolute;
@@ -34,8 +34,8 @@ main {
     color: var(--c-text-light);
 }
 .titleSection {
-    width: 80%;
-    max-width: 550px;
+    width: 100%;
+    max-width: 800px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     display: flex;
     flex-flow: row wrap;
@@ -45,4 +45,28 @@ main {
 .titleSection img {
     height: 200px;
     width: 200px;
+}
+
+.title {
+    margin-left: 20px;
+    text-align: center;
+    max-width: 20rem;
+}
+.title h1 {
+    font-size: 3rem;
+}
+.title p {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1120px) {
+    .welcomeMedia {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .welcomeMedia {
+        height: 60vh;
+    }
 }

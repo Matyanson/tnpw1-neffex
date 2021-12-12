@@ -17,3 +17,10 @@ main {
     padding: 50px;
     text-align: center;
 }
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: var(--c-neutral-dark);
+    border-top: 1px solid var(--c-neutral);
+}
