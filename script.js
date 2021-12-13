@@ -9,6 +9,8 @@ const media = document.getElementById('bg_video');
 const muteIcon = document.getElementById('mute')?.children[0];
 const replayIcon = document.getElementById('replay')?.children[0];
 
+media?.play();
+
 replayIcon?.addEventListener('click', () => media.currentTime = 0);
 
 muteIcon?.addEventListener('click', () => {
@@ -23,7 +25,9 @@ muteIcon?.addEventListener('click', () => {
 });
 
 //gallery
-const pictures = document.querySelectorAll('.gallery picture');
+const pictures = document.querySelectorAll('.gallery picture img');
+
+console.log(pictures);
 
 for(p of pictures) {
     p.addEventListener('click', toggleFullscreen);

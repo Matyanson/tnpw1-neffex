@@ -32,19 +32,17 @@
     align-items: center;
     background: #000000cc;
     z-index: 2;
+    pointer-events: none;
     transition: all 0.2s;
 }
 .gallery picture:hover::after {
     opacity: 1;
 }
 
-.gallery picture:fullscreen img {
+.gallery picture img:fullscreen {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
-.gallery picture:fullscreen::after {
-    opacity: 0;
 }
 
 @media only screen and (max-width: 768px) {
