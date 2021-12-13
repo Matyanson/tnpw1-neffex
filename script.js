@@ -25,15 +25,13 @@ muteIcon?.addEventListener('click', () => {
 });
 
 //gallery
-const pictures = document.querySelectorAll('.gallery picture img');
-
-console.log(pictures);
+const pictures = document.querySelectorAll('.gallery picture');
 
 for(p of pictures) {
     p.addEventListener('click', toggleFullscreen);
 }
 function toggleFullscreen(e) {
-    const elem = e.target;
+    const elem = e.target.children[0];
     if(isFullscreen())
         closeFullscreen();
     else
